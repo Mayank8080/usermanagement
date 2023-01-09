@@ -1,5 +1,4 @@
-FROM tomcat:8
+FROM nginx:alpine
 MAINTAINER Mayank
-RUN apt-get update
-EXPOSE 8080
-CMD ["catalina.sh", "run"]
+COPY . /usr/share/nginx/html
+EXPOSE 80
