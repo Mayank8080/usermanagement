@@ -1,6 +1,4 @@
-FROM tomcat:8.0-alpine
+FROM tomcat:8.0
 MAINTAINER Mayank
-RUN apt-get update
-EXPOSE 8080
 CMD ["catalina.sh", "run"]
 
