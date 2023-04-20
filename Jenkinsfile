@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                deploy war: 'target/myapp.war', tomcatUrl: 'http://localhost:8080', credentialsId: 'my-credentials-id'
+                deploy war: 'target/myapp.war', tomcatUrl: 'http://localhost:9006', credentialsId: 'my-credentials-id'
             }
         }
     }
