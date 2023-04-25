@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage("git"){
             steps{
-                git url: 'https://github.com/Mayank8080/bank.git', branch: 'main'
+                git url: 'https://github.com/Mayank8080/usermanagement.git', branch: 'feature1'
 
             }
         }
