@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                git 'https://github.com/your-repo.git'
+                git 'https://github.com/Mayank8080/usermanagement.git'
             }
         }
 
